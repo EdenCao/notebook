@@ -1,0 +1,11 @@
+{
+  "name": "editor",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "EdenCao <edencaox@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/showdown": "^1.9.2",
+    "showdown": "^1.9.0"
+  }
+}
