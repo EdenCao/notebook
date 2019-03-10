@@ -10,7 +10,8 @@
     "packages/editor"
   ],
   "scripts": {
-    "lint": "eslint --fix -c ./.eslintrc.yml --color --cache --ext .ts,.js,.tsx packages/"
+    "start:editor": "yarn workspace editor start",
+    "lintAll": "eslint --fix -c ./.eslintrc.yml --color --cache --ext .ts,.js,.tsx packages/"
   },
   "devDependencies": {
     "@types/eslint": "^4.16.6",
